@@ -27,7 +27,7 @@ closeBtn.addEventListener("click", () => {
 });
 
 // Outside Model Click Event
-modalSection.addEventListener("click", () => {
+overlay.addEventListener("click", () => {
 	modal.classList.remove("modal-visible");
 	modalBtn.classList.remove("modal-btn-hide");
 	overlay.classList.remove("active");
