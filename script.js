@@ -113,5 +113,5 @@ submit.addEventListener("click", () => {
 		successBox.classList.remove("form-success-show");
 		successText.textContent = "";
 		modalBtn.classList.remove("modal-btn-hide"); // Show "Open Modal" again
-	}, 1000);
+	}, 3000);
 });
